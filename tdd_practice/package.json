@@ -1,0 +1,26 @@
+{
+  "name": "tdd-practice",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@types/uuid": "^8.3.0",
+    "chai": "^4.3.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "should": "^13.2.3",
+    "supertest": "^6.1.3",
+    "uuid4": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/jest": "^26.0.20",
+    "@types/supertest": "^2.0.10"
+  }
+}
